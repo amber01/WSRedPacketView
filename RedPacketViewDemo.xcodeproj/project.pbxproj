@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22117DD41FE7D9E80044A828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117DD31FE7D9E80044A828 /* main.m */; };
+		22117DD71FE7D9E80044A828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117DD61FE7D9E80044A828 /* AppDelegate.m */; };
+		22117DDA1FE7D9E90044A828 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117DD91FE7D9E90044A828 /* ViewController.m */; };
+		22117DDD1FE7D9E90044A828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22117DDB1FE7D9E90044A828 /* Main.storyboard */; };
+		22117DDF1FE7D9E90044A828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22117DDE1FE7D9E90044A828 /* Assets.xcassets */; };
+		22117DE21FE7D9E90044A828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22117DE01FE7D9E90044A828 /* LaunchScreen.storyboard */; };
+		22117DED1FE7D9E90044A828 /* RedPacketViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117DEC1FE7D9E90044A828 /* RedPacketViewDemoUITests.m */; };
+		22117DFD1FE7DA770044A828 /* close_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22117DF81FE7DA770044A828 /* close_btn@2x.png */; };
+		22117DFE1FE7DA770044A828 /* redpacket_open_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22117DF91FE7DA770044A828 /* redpacket_open_btn@2x.png */; };
+		22117DFF1FE7DA770044A828 /* redpacket_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22117DFA1FE7DA770044A828 /* redpacket_bg@2x.png */; };
+		22117E001FE7DA770044A828 /* WSRedPacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22117DFC1FE7DA770044A828 /* WSRedPacketView.m */; };
+		22117E041FE7EC010044A828 /* red_packet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22117E031FE7EC010044A828 /* red_packet@2x.png */; };
+		2282E1BF1FE8E44600AB5E15 /* WSRewardConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E1BE1FE8E44600AB5E15 /* WSRewardConfig.m */; };
+		2282E1C11FE8EA5500AB5E15 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2282E1C01FE8EA5500AB5E15 /* avatar@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22117DE91FE7D9E90044A828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22117DC71FE7D9E70044A828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22117DCE1FE7D9E80044A828;
+			remoteInfo = RedPacketViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22117DCF1FE7D9E80044A828 /* RedPacketViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedPacketViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22117DD31FE7D9E80044A828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22117DD51FE7D9E80044A828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22117DD61FE7D9E80044A828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22117DD81FE7D9E90044A828 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22117DD91FE7D9E90044A828 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22117DDC1FE7D9E90044A828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22117DDE1FE7D9E90044A828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22117DE11FE7D9E90044A828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22117DE31FE7D9E90044A828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22117DE81FE7D9E90044A828 /* RedPacketViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPacketViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22117DEC1FE7D9E90044A828 /* RedPacketViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPacketViewDemoUITests.m; sourceTree = "<group>"; };
+		22117DEE1FE7D9E90044A828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22117DF81FE7DA770044A828 /* close_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_btn@2x.png"; sourceTree = "<group>"; };
+		22117DF91FE7DA770044A828 /* redpacket_open_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redpacket_open_btn@2x.png"; sourceTree = "<group>"; };
+		22117DFA1FE7DA770044A828 /* redpacket_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redpacket_bg@2x.png"; sourceTree = "<group>"; };
+		22117DFB1FE7DA770044A828 /* WSRedPacketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRedPacketView.h; sourceTree = "<group>"; };
+		22117DFC1FE7DA770044A828 /* WSRedPacketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRedPacketView.m; sourceTree = "<group>"; };
+		22117E031FE7EC010044A828 /* red_packet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_packet@2x.png"; sourceTree = "<group>"; };
+		2282E1BD1FE8E44600AB5E15 /* WSRewardConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRewardConfig.h; sourceTree = "<group>"; };
+		2282E1BE1FE8E44600AB5E15 /* WSRewardConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRewardConfig.m; sourceTree = "<group>"; };
+		2282E1C01FE8EA5500AB5E15 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22117DCC1FE7D9E80044A828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22117DE51FE7D9E90044A828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22117DC61FE7D9E70044A828 = {
+			isa = PBXGroup;
+			children = (
+				22117DD11FE7D9E80044A828 /* RedPacketViewDemo */,
+				22117DEB1FE7D9E90044A828 /* RedPacketViewDemoUITests */,
+				22117DD01FE7D9E80044A828 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22117DD01FE7D9E80044A828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22117DCF1FE7D9E80044A828 /* RedPacketViewDemo.app */,
+				22117DE81FE7D9E90044A828 /* RedPacketViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22117DD11FE7D9E80044A828 /* RedPacketViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22117DF71FE7DA160044A828 /* WSRedPacketView */,
+				22117DD51FE7D9E80044A828 /* AppDelegate.h */,
+				22117DD61FE7D9E80044A828 /* AppDelegate.m */,
+				22117DD81FE7D9E90044A828 /* ViewController.h */,
+				22117DD91FE7D9E90044A828 /* ViewController.m */,
+				22117DDB1FE7D9E90044A828 /* Main.storyboard */,
+				22117DDE1FE7D9E90044A828 /* Assets.xcassets */,
+				22117DE01FE7D9E90044A828 /* LaunchScreen.storyboard */,
+				22117DE31FE7D9E90044A828 /* Info.plist */,
+				22117DD21FE7D9E80044A828 /* Supporting Files */,
+			);
+			path = RedPacketViewDemo;
+			sourceTree = "<group>";
+		};
+		22117DD21FE7D9E80044A828 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2282E1C01FE8EA5500AB5E15 /* avatar@2x.png */,
+				22117E031FE7EC010044A828 /* red_packet@2x.png */,
+				22117DD31FE7D9E80044A828 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22117DEB1FE7D9E90044A828 /* RedPacketViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22117DEC1FE7D9E90044A828 /* RedPacketViewDemoUITests.m */,
+				22117DEE1FE7D9E90044A828 /* Info.plist */,
+			);
+			path = RedPacketViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		22117DF71FE7DA160044A828 /* WSRedPacketView */ = {
+			isa = PBXGroup;
+			children = (
+				22117DF81FE7DA770044A828 /* close_btn@2x.png */,
+				22117DF91FE7DA770044A828 /* redpacket_open_btn@2x.png */,
+				22117DFA1FE7DA770044A828 /* redpacket_bg@2x.png */,
+				22117DFB1FE7DA770044A828 /* WSRedPacketView.h */,
+				22117DFC1FE7DA770044A828 /* WSRedPacketView.m */,
+				2282E1BD1FE8E44600AB5E15 /* WSRewardConfig.h */,
+				2282E1BE1FE8E44600AB5E15 /* WSRewardConfig.m */,
+			);
+			path = WSRedPacketView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22117DCE1FE7D9E80044A828 /* RedPacketViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22117DF11FE7D9E90044A828 /* Build configuration list for PBXNativeTarget "RedPacketViewDemo" */;
+			buildPhases = (
+				22117DCB1FE7D9E80044A828 /* Sources */,
+				22117DCC1FE7D9E80044A828 /* Frameworks */,
+				22117DCD1FE7D9E80044A828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedPacketViewDemo;
+			productName = RedPacketViewDemo;
+			productReference = 22117DCF1FE7D9E80044A828 /* RedPacketViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22117DE71FE7D9E90044A828 /* RedPacketViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22117DF41FE7D9E90044A828 /* Build configuration list for PBXNativeTarget "RedPacketViewDemoUITests" */;
+			buildPhases = (
+				22117DE41FE7D9E90044A828 /* Sources */,
+				22117DE51FE7D9E90044A828 /* Frameworks */,
+				22117DE61FE7D9E90044A828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22117DEA1FE7D9E90044A828 /* PBXTargetDependency */,
+			);
+			name = RedPacketViewDemoUITests;
+			productName = RedPacketViewDemoUITests;
+			productReference = 22117DE81FE7D9E90044A828 /* RedPacketViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22117DC71FE7D9E70044A828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tank;
+				TargetAttributes = {
+					22117DCE1FE7D9E80044A828 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					22117DE71FE7D9E90044A828 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22117DCE1FE7D9E80044A828;
+					};
+				};
+			};
+			buildConfigurationList = 22117DCA1FE7D9E70044A828 /* Build configuration list for PBXProject "RedPacketViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22117DC61FE7D9E70044A828;
+			productRefGroup = 22117DD01FE7D9E80044A828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22117DCE1FE7D9E80044A828 /* RedPacketViewDemo */,
+				22117DE71FE7D9E90044A828 /* RedPacketViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22117DCD1FE7D9E80044A828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22117DE21FE7D9E90044A828 /* LaunchScreen.storyboard in Resources */,
+				2282E1C11FE8EA5500AB5E15 /* avatar@2x.png in Resources */,
+				22117DDF1FE7D9E90044A828 /* Assets.xcassets in Resources */,
+				22117DFD1FE7DA770044A828 /* close_btn@2x.png in Resources */,
+				22117DFF1FE7DA770044A828 /* redpacket_bg@2x.png in Resources */,
+				22117DFE1FE7DA770044A828 /* redpacket_open_btn@2x.png in Resources */,
+				22117DDD1FE7D9E90044A828 /* Main.storyboard in Resources */,
+				22117E041FE7EC010044A828 /* red_packet@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22117DE61FE7D9E90044A828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22117DCB1FE7D9E80044A828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22117E001FE7DA770044A828 /* WSRedPacketView.m in Sources */,
+				22117DDA1FE7D9E90044A828 /* ViewController.m in Sources */,
+				22117DD71FE7D9E80044A828 /* AppDelegate.m in Sources */,
+				22117DD41FE7D9E80044A828 /* main.m in Sources */,
+				2282E1BF1FE8E44600AB5E15 /* WSRewardConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22117DE41FE7D9E90044A828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22117DED1FE7D9E90044A828 /* RedPacketViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22117DEA1FE7D9E90044A828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22117DCE1FE7D9E80044A828 /* RedPacketViewDemo */;
+			targetProxy = 22117DE91FE7D9E90044A828 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22117DDB1FE7D9E90044A828 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22117DDC1FE7D9E90044A828 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22117DE01FE7D9E90044A828 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22117DE11FE7D9E90044A828 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22117DEF1FE7D9E90044A828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22117DF01FE7D9E90044A828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22117DF21FE7D9E90044A828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedPacketViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bbn.RedPacketViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22117DF31FE7D9E90044A828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedPacketViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bbn.RedPacketViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22117DF51FE7D9E90044A828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedPacketViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bbn.RedPacketViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedPacketViewDemo;
+			};
+			name = Debug;
+		};
+		22117DF61FE7D9E90044A828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedPacketViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bbn.RedPacketViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedPacketViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22117DCA1FE7D9E70044A828 /* Build configuration list for PBXProject "RedPacketViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22117DEF1FE7D9E90044A828 /* Debug */,
+				22117DF01FE7D9E90044A828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22117DF11FE7D9E90044A828 /* Build configuration list for PBXNativeTarget "RedPacketViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22117DF21FE7D9E90044A828 /* Debug */,
+				22117DF31FE7D9E90044A828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22117DF41FE7D9E90044A828 /* Build configuration list for PBXNativeTarget "RedPacketViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22117DF51FE7D9E90044A828 /* Debug */,
+				22117DF61FE7D9E90044A828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22117DC71FE7D9E70044A828 /* Project object */;
+}
